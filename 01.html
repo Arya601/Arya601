@@ -1,21 +1,288 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>學院測驗單題測試版</title>
-		<link rel="stylesheet" type="text/css" href="css/csstyle.css"/>
-	</head>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>【性向測驗】你最適合哪個學院？</title>
+    <link rel="stylesheet" type="text/css" href="css/csstyle.css" />
+    <script src="calc.js"></script>
+</head>
+<!--紅_綠_藍_黑_白-->
 	<body class="bball">
+	
+	
 		<div class="test">
-			<h2>學院測驗單題測試版</h2>
-			<p>最難以忍受故事有什麼問題，讓你難以看下去？</p>	
-			<div><img src="img/school.png" height="300px"/></div>
-			<div class="test-cho">
-				<a href="green.html" class="test-cho1">(A)乏味可陳不知道該看什麼。</a>
-				<a href="black.html" class="test-cho2">(B)形容詞亂用、視角亂換，文筆亂七八糟。</a>
-				<a href="blue.html" class="test-cho3">(C)邏輯令人瘋狂吐槽，智商狂降。</a>
-				<a href="white.html" class="test-cho4">(D)心理描寫牽強，人物關係進展太過迅速。</a>
-			</div>			
+		<h2>【性向測驗】你最適合哪個學院？</h2>
 		</div>
+		
+		<table align="center">
+            <tbody>
+			<tr><td colspan="2"><h2>程度題：（3-完全符合，2-大致符合，1-有點符合，0-沒有）</h2>	</td>
+			<tr>    
+				<td>
+				<label><input type="radio" name="degree1" value="1_3_0_0_0">3</label>
+					<label><input type="radio" name="degree1" value="0_2_0_0_0">2</label>
+					<label><input type="radio" name="degree1" value="0_1_0_0_0">1</label>
+					<label><input type="radio" name="degree1" value="0_3_0_0_0">0</label>
+				</td> 
+				<td>
+					<label>-----1. 喜歡以奇特有趣的設定為主，認為故事最有趣應該為要很有創意。</label>				
+                </td>
+            </tr>			
+            <tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>				
+            <tr>			
+				<td>
+				<label><input type="radio" name="degree2" value="1_0_0_0_3">3</label>
+					<label><input type="radio" name="degree2" value="0_0_0_0_2">2</label>
+					<label><input type="radio" name="degree2" value="0_0_0_0_1">1</label>
+					<label><input type="radio" name="degree2" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----2. 角色互動、人物關係是最容易吸引人閱讀的動力。</label>	
+                </td> 
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr>
+				<td>
+				<label><input type="radio" name="degree3" value="0_0_-3_0_0">3</label>
+					<label><input type="radio" name="degree3" value="0_0_-2_0_0">2</label>
+					<label><input type="radio" name="degree3" value="0_0_-1_0_0">1</label>
+					<label><input type="radio" name="degree3" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----3.比起合乎常理，一些誇大效果使劇情高潮更上一層的手法是更好的，故事並非現實，沒必要糾結不重要的細節邏輯。</label>	
+                </td> 
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr>
+				<td>
+				<label><input type="radio" name="degree4" value="0_0_3_0_0">3</label>
+					<label><input type="radio" name="degree4" value="0_0_2_0_0">2</label>
+					<label><input type="radio" name="degree4" value="0_0_1_0_0">1</label>
+					<label><input type="radio" name="degree4" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----4.即使奇幻創作也該有一定的邏輯系統在運作，創意不該只是天馬行空，而是將幻想合理化，說服的了讀者，讀者才有辦法融入幻想的世界。</label>	
+                </td>
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr> 
+				<td>
+				<label><input type="radio" name="degree5" value="3_0_0_0_0">3</label>
+					<label><input type="radio" name="degree5" value="2_0_0_0_0">2</label>
+					<label><input type="radio" name="degree5" value="1_0_0_0_0">1</label>
+					<label><input type="radio" name="degree5" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----5.我很清楚列出的作品在市場上的優勢和劣勢。</label>	
+                </td> 
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr>
+				<td>
+				<label><input type="radio" name="degree6" value="3_0_0_0_0">3</label>
+					<label><input type="radio" name="degree6" value="2_0_0_0_0">2</label>
+					<label><input type="radio" name="degree6" value="1_0_0_0_0">1</label>
+					<label><input type="radio" name="degree6" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----6.就算作品寫得好也要配合行銷宣傳，認為寫作只要好看就能吸引很多人上門是天真的想法。</label>	
+                </td> 
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr>     
+				<td>
+				<label><input type="radio" name="degree7" value="0_3_1_0_0">3</label>
+					<label><input type="radio" name="degree7" value="0_2_0_0_0">2</label>
+					<label><input type="radio" name="degree7" value="0_1_0_0_0">1</label>
+					<label><input type="radio" name="degree7" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----7.列出的創作和喜歡作品多數是非現實的背景，而且堅持創作出與眾不同、獨一無二的世界觀，無法接受使用他人已創作過的設定，甚至可以為了寫世界觀開好幾個資料夾。</label>	
+                </td> 
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr>
+				<td>
+				<label><input type="radio" name="degree8" value="0_1_2_1_0">3</label>
+					<label><input type="radio" name="degree8" value="0_1_1_1_0">2</label>
+					<label><input type="radio" name="degree8" value="0_1_0_0_0">1</label>
+					<label><input type="radio" name="degree8" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----8.喜歡非現實背景的故事，甚至喜歡專研傳統奇幻或是神話等這些自成體系的奇幻設定，覺得這是值得考究的學問。</label>	
+                </td>
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr>
+				<td>
+				<label><input type="radio" name="degree9" value="0_0_0_-3_0">3</label>
+					<label><input type="radio" name="degree9" value="0_0_0_-2_0">2</label>
+					<label><input type="radio" name="degree9" value="0_0_0_-1_0">1</label>
+					<label><input type="radio" name="degree9" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----9.覺得只要故事夠好，文筆一般就可，不需要太雕琢文字。</label>	
+                </td> 
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr>  
+				<td>
+				<label><input type="radio" name="degree10" value="0_0_3_0_0">3</label>
+					<label><input type="radio" name="degree10" value="0_0_2_0_0">2</label>
+					<label><input type="radio" name="degree10" value="0_0_1_0_0">1</label>
+					<label><input type="radio" name="degree10" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----10.創作時會謹慎思考避免作品出現矛盾，並蒐集自己專用的工具書方便查閱。</label>	
+                </td>
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr> 
+				<td>
+				<label><input type="radio" name="degree11" value="0_0_0_0_3">3</label>
+					<label><input type="radio" name="degree11" value="0_0_0_0_2">2</label>
+					<label><input type="radio" name="degree11" value="0_0_0_0_1">1</label>
+					<label><input type="radio" name="degree11" value="0_0_0_0_0">0</label>
+				</td>
+				 <td>
+					<label>-----11.沒有特定喜歡的類別，只要角色夠有魅力都喜歡，特別喜歡人物互動及人性心理描寫。</label>	
+                </td> 
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr>          
+				<td>
+				<label><input type="radio" name="degree12" value="0_0_0_3_0">3</label>
+					<label><input type="radio" name="degree12" value="0_0_0_2_0">2</label>
+					<label><input type="radio" name="degree12" value="0_0_0_1_0">1</label>
+					<label><input type="radio" name="degree12" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----12.能閱讀較硬的文字，閱讀的讀物中包含詩詞古文歷史傳記、或是經典文學名著。</label>	
+                </td> 
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr> 
+				<td>
+				<label><input type="radio" name="degree13" value="-3_0_0_0_0">3</label>
+					<label><input type="radio" name="degree13" value="-2_0_0_0_0">2</label>
+					<label><input type="radio" name="degree13" value="-1_0_0_0_0">1</label>
+					<label><input type="radio" name="degree13" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----13.有些輕視花很多時間經營自己、四處交際的作家。</label>	
+                </td>
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr>
+				<td>
+				<label><input type="radio" name="degree14" value="0_0_0_0_-3">3</label>
+					<label><input type="radio" name="degree14" value="0_0_0_0_-2">2</label>
+					<label><input type="radio" name="degree14" value="0_0_0_0_-1">1</label>
+					<label><input type="radio" name="degree14" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----14.人物僅為劇情服務，過多的心理細節描寫反而會造成劇情節奏拖沓。</label>	
+                </td>
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr> 
+				<td>
+				<label><input type="radio" name="degree15" value="0_3_0_0_0">3</label>
+					<label><input type="radio" name="degree15" value="0_2_0_0_0">2</label>
+					<label><input type="radio" name="degree15" value="0_1_0_0_0">1</label>
+					<label><input type="radio" name="degree15" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----15.喜歡獵奇或是突破禁忌的題材，也喜歡恐怖靈異的傳說。</label>	
+                </td> 
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr>      
+				<td>
+				<label><input type="radio" name="degree16" value="0_0_0_3_0">3</label>
+					<label><input type="radio" name="degree16" value="0_0_0_2_0">2</label>
+					<label><input type="radio" name="degree16" value="0_0_0_1_0">1</label>
+					<label><input type="radio" name="degree16" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----16.認為文化傳統是非常寶貴的創作核心，可以的話，希望藉由創作傳達文化之美。</label>	
+                </td> 
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr> 
+				<td>
+				<label><input type="radio" name="degree17" value="0_-3_0_0_0">3</label>
+					<label><input type="radio" name="degree17" value="0_-2_0_0_0">2</label>
+					<label><input type="radio" name="degree17" value="0_-1_0_0_0">1</label>
+					<label><input type="radio" name="degree17" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----17.對於架空的故事較難產生共鳴，認為寫實的作品比較親切。</label>	
+                </td>
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr>     
+				<td>
+				<label><input type="radio" name="degree18" value="0_0_0_3_0">3</label>
+					<label><input type="radio" name="degree18" value="0_0_0_2_0">2</label>
+					<label><input type="radio" name="degree18" value="0_0_0_1_0">1</label>
+					<label><input type="radio" name="degree18" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----18.經常考慮要用怎樣的手法去烘托情境。</label>	
+                </td> 
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr>
+				<td>
+				<label><input type="radio" name="degree19" value="0_0_1_0_3">3</label>
+					<label><input type="radio" name="degree19" value="0_0_1_0_2">2</label>
+					<label><input type="radio" name="degree19" value="0_0_1_0_1">1</label>
+					<label><input type="radio" name="degree19" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----19.因為創作會喜歡到處觀察人群，推測人的心理活動及生活背景，甚至將覺得有意思的互動或對話紀錄下來。</label>	
+                </td>
+            </tr>
+			<tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr>	
+			<tr>     
+				<td>
+				<label><input type="radio" name="degree20" value="3_0_0_0_1">3</label>
+					<label><input type="radio" name="degree20" value="2_0_0_0_1">2</label>
+					<label><input type="radio" name="degree20" value="1_0_0_0_1">1</label>
+					<label><input type="radio" name="degree20" value="0_0_0_0_0">0</label>
+				</td>
+				<td>
+					<label>-----20.注意到角色小說的市場，會留意角色應該增加的萌點或是粉紅泡泡的互動，用此提高作品的吸引度。</label>	
+                </td>
+            </tr>
+		</tbody>
+	</table>     
+	<br /><br />
+	紅馳<input type="text" id="sred">
+    綠躍<input type="text" id="sgreen">
+    藍行<input type="text" id="sblue">
+    墨佇<input type="text" id="sblack">
+    銀倚<input type="text" id="swhite">
+    <br /><br />
+	<button onclick="calc()">計算</button>
+	
+	<br /><br />
+	<div class="test">
+			<h2>前往結果</h2>
+			
+			<div class="test-cho">
+				<a href="red.html" class="test-cho1">紅馳學院</a>
+				<a href="green.html" class="test-cho1">綠躍學院</a>		
+				<a href="blue.html" class="test-cho3">藍行學院</a>
+				<a href="black.html" class="test-cho2">墨佇學院</a>
+				<a href="white.html" class="test-cho4">銀倚學院</a>
+			</div>	
+<div><img src="img/school.png" height="300px"/></div>			
+		</div>
+
 	</body>
 </html>
+<script>
+       
+    </script>
