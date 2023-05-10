@@ -20,10 +20,7 @@ body {
         text-align: center;
     }
 
-.res_ack {
-    margin-bottom: 20px;
-    text-align: center;
-}
+
 
 .res_ack-title {
     color: #D1FF54;
@@ -40,9 +37,6 @@ body {
     text-indent: 2em; /* 開頭空兩格 */
 }
 
-    .res_ack-desc:last-child {
-        margin-bottom: 0;
-    }
 
 .res_btn {
     background-color: #81BB3E;

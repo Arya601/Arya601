@@ -20,10 +20,6 @@ body {
         text-align: center;
     }
 
-.res_ack {
-    margin-bottom: 20px;
-    text-align: center;
-}
 
 .res_ack-title {
     color: #43afa5;
@@ -38,10 +34,6 @@ body {
     margin: 10px 0;
     text-align: left;
 }
-
-    .res_ack-desc:last-child {
-        margin-bottom: 0;
-    }
 
 .res_btn {
     background-color: #1c6b5e;
