@@ -37,6 +37,7 @@ body {
     line-height: 1.5;
     margin: 10px 0;
     text-align: left;
+    text-indent: 2em; /* 開頭空兩格 */
 }
 
     .res_ack-desc:last-child {
