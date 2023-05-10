@@ -12,6 +12,7 @@
     border: none;
     border-radius: 50px;
     font-size: 35px;
+    margin: 50px;
 }
 
     .index_button:hover {
@@ -28,6 +29,8 @@
     margin: 10px 0;
     margin-bottom: 30px;
     text-align: left;
+    text-indent: 2em; /* 開頭空兩格 */
+    margin: 50px;
 }
 
 .index_list {
