@@ -315,6 +315,12 @@ td {
     max-width: 100%;
 }
 
+.test-note {
+    font-size: 18px;
+    color: #DCC98C;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
 /* 設定測驗選擇按鈕樣式 */
 .test-cho {
     display: flex;
