@@ -1,9 +1,51 @@
+/*首頁*/
+
+.index {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.index_button {
+    background-color: #DCC98C;
+    color: #01161e;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 50px;
+    font-size: 35px;
+}
+
+    .index_button:hover {
+        background-color: #07384C;
+        color: #eff6e0;
+    }
+
+
+.index_desc {
+    color: #eff6e0;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.index_list {
+    color: #caffb9;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
 /* 設定背景色 */
 body {
     background-color: #213944;
 }
 
-h2 {
+h1 {
     text-align: center;
     color: #DCC98C;
     font-size: 36px;
@@ -11,13 +53,13 @@ h2 {
 
 /* 設定頁面中心化 */
 .container {
-    max-width: 800px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
 /* 設定表單樣式 */
 form {
-    max-width: 900px;
+    max-width: 75%;
     margin: 0 auto;
     padding: 100px;
     border-radius: 20px;
@@ -37,12 +79,12 @@ figure {
     text-align: center;
 }
 
-	figure img {
-			width="1090px";
-			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-			height: auto;
-			border-radius: 20px;
-		}
+    figure img {
+        width: 97%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        height: auto;
+        border-radius: 20px;
+    }
 
 .brk {
     display: block;
@@ -67,7 +109,7 @@ label {
     display: inline-block;
     margin-right: 10px;
     margin-bottom: 30px;
-    color: #eff6e0; /*圓紐上的字*/
+    color: #eff6e0; /*圓鈕上的字*/
 }
 
 .question label {
