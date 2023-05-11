@@ -62,9 +62,9 @@ h1 {
 
 /* 設定表單樣式 */
 form {
-    max-width: 75%;
+    max-width: 90%;
     margin: 0 auto;
-    padding: 100px;
+    padding: 5%;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-color: #01161e;
@@ -76,6 +76,20 @@ form {
         height: auto;
         border-radius: 10px;
     }
+
+fieldset {
+    display: block;
+    margin-top:10%;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 4px;
+    border-style: dashed;
+    border-color: #213944;
+    border-image: initial;
+}
 
 figure {
     margin: 100px 0;
@@ -104,6 +118,7 @@ legend {
     font-weight: bold;
     margin-bottom: 10px;
     color: #DCC98C;
+    text-align: center;
 }
 
 label {
