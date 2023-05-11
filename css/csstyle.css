@@ -5,6 +5,15 @@
     margin-top: 50px;
 }
 
+.index_form {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #01161e;
+}
+
 .index_button {
     background-color: #DCC98C;
     color: #01161e;
@@ -12,7 +21,7 @@
     border: none;
     border-radius: 50px;
     font-size: 35px;
-    margin: 50px;
+    margin: 20%;
 }
 
     .index_button:hover {
@@ -30,7 +39,7 @@
     margin-bottom: 30px;
     text-align: left;
     text-indent: 2em; /* 開頭空兩格 */
-    margin: 50px;
+    margin: 20%;
 }
 
 .index_list {
@@ -79,7 +88,7 @@ form {
 
 fieldset {
     display: block;
-    margin-top:10%;
+    margin-top: 10%;
     border-width: 5px;
     border-style: dashed;
     border-color: #213944;
