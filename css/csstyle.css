@@ -2,11 +2,11 @@
 
 .index {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10%;
 }
 
 .index_form {
-    max-width: 75%;
+    max-width: 50%;
     margin: 0 auto;
     padding: 5%;
     border-radius: 20px;
@@ -19,8 +19,8 @@
     color: #01161e;
     padding: 16px 32px;
     border-radius: 50px;
-    font-size: 35px;
-    margin: 20%;
+    font-size: 28px;
+    margin: 10%;
 }
 
     .index_button:hover {
@@ -31,9 +31,9 @@
 
 .index_desc {
     color: #eff6e0;
-    font-size: 30px;
+    font-size: 18px;
     line-height: 2;
-    margin: 20px 0;
+    margin: 15px 0;
     margin-bottom: 30px;
     text-align: left;
     text-indent: 2em; /* 開頭空兩格 */
@@ -42,11 +42,11 @@
 
 .index_list {
     color: #caffb9;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 3;
-    margin: 20px 0;
-    margin-bottom: 30px;
+    margin: 15px 0;
+    margin-bottom: 20px;
 	text-indent: 0em; 
     text-align: left;
 }
@@ -116,7 +116,7 @@ figure {
 }
 
 legend {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #DCC98C;
@@ -124,7 +124,7 @@ legend {
 }
 
 label {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     display: inline-block;
     margin-right: 10px;
@@ -137,7 +137,7 @@ label {
     display: inline-block;
     margin-right: 10px;
     cursor: pointer;
-    padding-left: 25px;
+    padding-left: 20px;
 }
 
     .question label input[type="radio"] {
@@ -172,7 +172,7 @@ label {
 .question {
     margin-top: 100px;
     color: #eff6e0; /*題目顏色*/
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .qa {
@@ -185,7 +185,7 @@ label {
 
 .choice-questions p {
     margin: 50px 0;
-    font-size: 22px;
+    font-size: 18px;
     color: #eff6e0; /*題目顏色*/
 }
 /* 選項區塊樣式 */
@@ -200,7 +200,7 @@ label {
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px;
     font-family: Arial, sans-serif; /* 使用 Arial 字體或類似字體 */
 }
@@ -271,7 +271,7 @@ button[type="submit"] {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-    font-size: 35px;
+    font-size: 30px;
     display: block;
     margin: auto;
     margin-top: 80px;
