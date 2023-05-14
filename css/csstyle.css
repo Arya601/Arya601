@@ -1,18 +1,16 @@
 /*首頁*/
 
 .index {
-    text-align: center;
-    margin-top: 10%;
-}
-
-.index_form {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 5%;
-	border: 2px solid #eff6e0;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    background-color: #01161e;
+text-align: center;
+margin: 10% auto 20px;
+padding: 20px;
+max-width: 600px;
+font-size: 30px;
+font-family: Arial, sans-serif;
+background-color: #01161e;
+border: 2px solid #eff6e0;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .index_button {
@@ -29,27 +27,22 @@
         color: #eff6e0;
     }
 
-
 .index_desc {
-    color: #eff6e0;
-    font-size: 18px;
-    line-height: 2;
-    margin: 15px 0;
-    margin-bottom: 30px;
-    text-align: left;
-    text-indent: 2em; /* 開頭空兩格 */
-    margin: 20%;
+margin: 10px 0;
+text-align: left;
+text-indent: 2em; /* 開頭空兩格 */
+line-height: 2;
+color: #eff6e0;
+font-size: 18px;
 }
 
 .index_list {
-    color: #caffb9;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 3;
-    margin: 15px 0;
-    margin-bottom: 20px;
-	text-indent: 0em; 
-    text-align: left;
+color: #caffb9;
+font-size: 18px;
+font-weight: bold;
+line-height: 3;
+margin: 15px 0 20px;
+text-align: left;
 }
 
 /* 設定背景色 */
